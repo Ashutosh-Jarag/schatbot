@@ -83,6 +83,8 @@ In the `schatbot/` directory (where your `app.py` or main Python script is), cre
 Open the newly created `.env` file using a text editor (like VS Code, Sublime Text, or Notepad) and paste your key using the variable name `GEMINI_API_KEY`:
 
 ```
+# use same key for both one openly and other one in "key"
+GEMINI_API_KEY=PASTE_YOUR_COPIED_API_KEY_HERE
 GEMINI_API_KEY="PASTE_YOUR_COPIED_API_KEY_HERE"
 ```
 
